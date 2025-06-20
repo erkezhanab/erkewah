@@ -1,0 +1,106 @@
+/* --- Стили из примера на слайде 12 --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 60px; /* Отступ для контента, чтобы не залезал под шапку */
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 18px;
+}
+/* --- Конец стилей из примера --- */
+
+
+/* --- Стили для навигации из примера на слайде 28 --- */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Центрируем меню */
+    padding-left: 0; /* Убираем отступ по умолчанию у списка */
+    margin: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+    font-size: 1.2em; /* Немного увеличим шрифт для наглядности */
+}
+/* --- Конец стилей из примера --- */
+
+
+/* --- Базовые стили для общего дизайна --- */
+html {
+    scroll-behavior: smooth; /* Плавная прокрутка по якорям */
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    position: fixed; /* Фиксируем шапку вверху */
+    top: 0;
+    width: 100%;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto; /* Центрируем секции */
+    border-bottom: 1px solid #eee;
+}
+
+section:last-of-type {
+    border-bottom: none;
+}
+
+img {
+    max-width: 100%; /* Адаптивность изображений */
+    height: auto;
+    margin-top: 15px;
+}
+
+/* Стили для формы из примера */
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"] {
+    display: block;
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
